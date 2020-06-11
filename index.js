@@ -17,7 +17,8 @@ const titleCased = () => {
         let firstLetter = word.slice(0, 1)
         console.log("test", firstLetter.toUpperCase())
         let restOfWord = word.slice(1)
-        return (firstLetter.toUpperCase() + restOfWord)
+        return `${firstLetter.toUpperCase()}${restOfWord}`
       }).join(" ")
     })
+    
 }
